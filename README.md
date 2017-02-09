@@ -1,2 +1,2 @@
 # nikiwerkt.github.io
-Website
+Hosted on oog.one
