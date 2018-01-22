@@ -1940,58 +1940,12 @@ html[lang=ja] .wnd-fonts-fallback blockquote {
     font-family: "Noto Sans Japanese", "Times New Roman", serif
 }
 
-blockquote:before {
-    font-size: 4.75rem;
-    top: 22px;
-    left: 5px;
-    content: '?';
-    font-family: pt-serif, "Times New Roman", serif;
-    line-height: 1;
-    position: absolute
-}
-
 .wnd-fonts-fallback blockquote:before {
     font-family: "Noto Serif", "Times New Roman", serif
 }
 
 html[lang=ja] .wnd-fonts-fallback blockquote:before {
     font-family: "Noto Sans Japanese", "Times New Roman", serif
-}
-
-html[lang=ja] blockquote:before {
-    content: '????';
-    top: 25px;
-    left: -18px;
-    font-size: 2.5rem
-}
-
-html[lang=ca] blockquote:before,
-html[lang=lv] blockquote:before,
-html[lang=no] blockquote:before,
-html[lang=el] blockquote:before,
-html[lang=pt] blockquote:before,
-html[lang=uk] blockquote:before,
-html[lang=ru] blockquote:before,
-html[lang=it] blockquote:before,
-html[lang=fr] blockquote:before {
-    content: '«';
-    font-family: serif;
-    top: 0;
-    left: 3px;
-    max-height: 70px
-}
-
-html[lang=sk] blockquote:before,
-html[lang=pl] blockquote:before,
-html[lang=hu] blockquote:before,
-html[lang=de] blockquote:before,
-html[lang=nl] blockquote:before,
-html[lang=hr] blockquote:before,
-html[lang=cz] blockquote:before {
-    content: '?';
-    top: -32px;
-    left: 5px;
-    max-height: 90px
 }
 
 blockquote b,
