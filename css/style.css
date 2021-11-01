@@ -1,5 +1,16 @@
 @charset "UTF-8";
 
+blockquote.quote::before {
+  content: "„";
+  color: hsla(0,0%,73%,.5);
+  font-size: 9.375rem;
+  font-family: "pt-serif",Times New Roman,serif;
+  font-weight: 400;
+  display: block;
+  line-height: 1;
+  position: absolute;
+}
+
 img,
 legend {
     border: 0
@@ -19032,7 +19043,7 @@ body:not(.touched):not(.wnd-cms) .section-media-light.footer-01.design-01 .sf a:
 }
 
 .wsw-05 {
-    color: #949494
+    color: #4d4d4d; /* #949494 */
 }
 
 .wsw-06 {
